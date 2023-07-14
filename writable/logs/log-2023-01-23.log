@@ -1,0 +1,296 @@
+ERROR - 2023-01-23 03:11:52 --> Error connecting to the database: Unknown database 'medis_0014'
+CRITICAL - 2023-01-23 03:11:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'medis_0014'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-01-23 03:11:57 --> Error connecting to the database: Unknown database 'medis_0014'
+CRITICAL - 2023-01-23 03:11:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'medis_0014'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-23 03:12:00 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-01-23 03:12:05 --> Error connecting to the database: Unknown database 'medis_0014'
+CRITICAL - 2023-01-23 03:12:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'medis_0014'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-23 06:48:14 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-23 06:56:01 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-23 19:41:09 --> Cannot declare class App\Database\Migrations\Products, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-23 19:51:59 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-23 19:52:02 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-01-23 20:01:07 --> Unknown column 'status_dosen' in 'where clause'
+CRITICAL - 2023-01-23 20:01:07 --> Unknown column 'status_dosen' in 'where clause'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:01:09 --> Unknown column 'status_dosen' in 'where clause'
+CRITICAL - 2023-01-23 20:01:09 --> Unknown column 'status_dosen' in 'where clause'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:01:58 --> Unknown column 'status_dosen' in 'where clause'
+CRITICAL - 2023-01-23 20:01:58 --> Unknown column 'status_dosen' in 'where clause'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:02:05 --> Unknown column 'status_dosen' in 'where clause'
+CRITICAL - 2023-01-23 20:02:05 --> Unknown column 'status_dosen' in 'where clause'
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-23 20:02:08 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-23 20:07:07 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_medis\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-01-23 20:07:10 --> Table 'akademik_0023.dosen0023' doesn't exist
+CRITICAL - 2023-01-23 20:07:10 --> Table 'akademik_0023.dosen0023' doesn't exist
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:07:42 --> Table 'akademik_0023.dosen0023' doesn't exist
+CRITICAL - 2023-01-23 20:07:42 --> Table 'akademik_0023.dosen0023' doesn't exist
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:08:42 --> Table 'akademik_0023.dosen0023' doesn't exist
+CRITICAL - 2023-01-23 20:08:42 --> Table 'akademik_0023.dosen0023' doesn't exist
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:08:42 --> Table 'akademik_0023.dosen0023' doesn't exist
+CRITICAL - 2023-01-23 20:08:42 --> Table 'akademik_0023.dosen0023' doesn't exist
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:20:05 --> Table 'akademik_0023.dosen0023' doesn't exist
+CRITICAL - 2023-01-23 20:20:05 --> Table 'akademik_0023.dosen0023' doesn't exist
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-01-23 20:30:39 --> Table 'akademik_0023.dosen0023' doesn't exist
+CRITICAL - 2023-01-23 20:30:39 --> Table 'akademik_0023.dosen0023' doesn't exist
+#0 C:\xampp\htdocs\ci4_medis\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_medis\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_medis\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_medis\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_medis\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-23 20:33:32 --> Undefined variable $obat0014
+#0 C:\xampp\htdocs\ci4_medis\app\Views\category\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\ci4_medis\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_medis\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_medis\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-23 20:33:36 --> Undefined variable $obat0014
+#0 C:\xampp\htdocs\ci4_medis\app\Views\category\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\ci4_medis\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_medis\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_medis\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_medis\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-23 20:41:31 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-23 20:42:17 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-23 20:45:34 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_medis\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_medis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_medis\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

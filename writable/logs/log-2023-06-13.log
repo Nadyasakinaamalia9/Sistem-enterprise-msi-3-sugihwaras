@@ -1,0 +1,28 @@
+CRITICAL - 2023-06-13 23:24:30 --> authregistesiswar is not a validation rules group.
+#0 C:\xampp\UTS_Enterprise_msi\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authregistesisw...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('authregistesisw...')
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth_siswa.php(114): CodeIgniter\Validation\Validation->run(Array, 'authregistesisw...')
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth_siswa->proses_register()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth_siswa))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-13 23:25:23 --> authregistesiswa is not a validation rules group.
+#0 C:\xampp\UTS_Enterprise_msi\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('authregistesisw...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('authregistesisw...')
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth_siswa.php(114): CodeIgniter\Validation\Validation->run(Array, 'authregistesisw...')
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth_siswa->proses_register()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth_siswa))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-13 23:26:16 --> Call to undefined method App\Models\Auth_model_siswa::register
+#0 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth_siswa.php(124): CodeIgniter\Model->__call('register', Array)
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth_siswa->proses_register()
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth_siswa))
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}

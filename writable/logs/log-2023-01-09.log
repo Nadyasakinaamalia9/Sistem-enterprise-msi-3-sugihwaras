@@ -1,0 +1,15 @@
+ERROR - 2023-01-09 22:10:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-01-09 22:10:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ci4_app\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_app\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_app\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('shintaros26@gma...', 'email', Array, NULL)
+#4 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'shintaros26@gma...', Array, Array)
+#5 C:\xampp\htdocs\ci4_app\app\Controllers\Auth.php(96): CodeIgniter\Validation\Validation->run(Array, 'authregister')
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Auth->proses_register()
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

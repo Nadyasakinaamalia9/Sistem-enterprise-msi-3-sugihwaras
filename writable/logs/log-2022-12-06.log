@@ -1,0 +1,86 @@
+CRITICAL - 2022-12-06 00:22:02 --> Call to undefined method App\Models\Product_model::getProduct
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): CodeIgniter\Model->__call('getProduct', Array)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-06 00:22:10 --> Call to undefined method App\Models\Product_model::getProduct
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): CodeIgniter\Model->__call('getProduct', Array)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-06 00:23:25 --> Call to undefined method App\Models\Product_model::getProduct
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): CodeIgniter\Model->__call('getProduct', Array)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-06 00:26:41 --> Call to undefined method App\Models\Product_model::getProduct
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): CodeIgniter\Model->__call('getProduct', Array)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-06 00:26:42 --> Call to undefined method App\Models\Product_model::getProduct
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): CodeIgniter\Model->__call('getProduct', Array)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-06 00:27:39 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\ci4_app\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_app\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(802): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-06 00:31:15 --> Undefined variable $categories
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-06 00:42:08 --> Undefined variable $categories
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-06 00:42:11 --> Undefined variable $categories
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

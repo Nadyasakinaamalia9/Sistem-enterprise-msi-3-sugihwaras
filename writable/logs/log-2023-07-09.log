@@ -1,0 +1,24 @@
+CRITICAL - 2023-07-09 23:37:53 --> Undefined variable $pager
+#0 C:\Users\ACER\Downloads\msienterprise-main\app\Views\penjadwalan\view.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ACER\\D...', 96)
+#1 C:\Users\ACER\Downloads\msienterprise-main\system\View\View.php(210): include('C:\\Users\\ACER\\D...')
+#2 C:\Users\ACER\Downloads\msienterprise-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ACER\Downloads\msienterprise-main\system\Common.php(1089): CodeIgniter\View\View->render('penjadwalan/vie...', Array, true)
+#4 C:\Users\ACER\Downloads\msienterprise-main\app\Controllers\Penjadwalan.php(88): view('penjadwalan/vie...', Array)
+#5 C:\Users\ACER\Downloads\msienterprise-main\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->view()
+#6 C:\Users\ACER\Downloads\msienterprise-main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#7 C:\Users\ACER\Downloads\msienterprise-main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ACER\Downloads\msienterprise-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ACER\Downloads\msienterprise-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#10 {main}
+CRITICAL - 2023-07-09 23:56:07 --> Undefined variable $id_pegawai
+#0 C:\Users\ACER\Downloads\msienterprise-main\app\Views\auth\login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\ACER\\D...', 66)
+#1 C:\Users\ACER\Downloads\msienterprise-main\system\View\View.php(210): include('C:\\Users\\ACER\\D...')
+#2 C:\Users\ACER\Downloads\msienterprise-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ACER\Downloads\msienterprise-main\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 C:\Users\ACER\Downloads\msienterprise-main\app\Controllers\Auth.php(39): view('auth/login')
+#5 C:\Users\ACER\Downloads\msienterprise-main\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 C:\Users\ACER\Downloads\msienterprise-main\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\ACER\Downloads\msienterprise-main\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ACER\Downloads\msienterprise-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ACER\Downloads\msienterprise-main\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ACER\\D...')
+#10 {main}

@@ -1,0 +1,115 @@
+CRITICAL - 2022-12-25 05:17:36 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->show('1')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-12-25 05:18:16 --> Unknown column 'products.product.product_id' in 'where clause'
+CRITICAL - 2022-12-25 05:18:16 --> Unknown column 'products.product.product_id' in 'where clause'
+#0 C:\xampp\htdocs\ci4_app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_app\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_app\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_app\app\Models\Product_model.php(21): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(69): App\Models\Product_model->getProduct('1')
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->show('1')
+#8 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-25 06:47:58 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->edit('1')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 06:48:33 --> Undefined array key "product name"
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\edit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/edit', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(80): view('product/edit', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->edit('1')
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-25 06:51:06 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->update()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 07:20:34 --> syntax error, unexpected token ";", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4_app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product/create')
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('product/create')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 07:20:36 --> syntax error, unexpected token ";", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4_app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product')
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('product')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 07:20:40 --> syntax error, unexpected token ";", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4_app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product/edit/4')
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('product/edit/4')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 07:20:44 --> syntax error, unexpected token ";", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4_app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product/edit/3')
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('product/edit/3')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 07:20:51 --> syntax error, unexpected token ";", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4_app\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('product')
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('product')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 07:22:52 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->delete('5')
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 20:44:15 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-25 20:44:35 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

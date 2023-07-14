@@ -1,0 +1,132 @@
+CRITICAL - 2023-05-08 06:32:25 --> Invalid file: guruprofil/idx14.php
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guruprofil/idx1...')
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('guruprofil/idx1...', Array, true)
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Guruprofil.php(62): view('guruprofil/idx1...', Array)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Guruprofil->index()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guruprofil))
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-08 06:32:30 --> Invalid file: pembelajaran/idx11.php
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembelajaran/id...')
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/id...', Array, true)
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Pembelajaran.php(62): view('pembelajaran/id...', Array)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->index()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-08 06:57:52 --> Call to undefined method App\Models\Emis_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:58:05 --> Call to undefined method App\Models\Emis_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:58:28 --> Call to undefined method App\Models\Emis_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:58:29 --> Call to undefined method App\Models\Emis_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:58:31 --> Call to undefined method App\Models\Emis_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:58:36 --> Call to undefined method App\Models\Emis_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:59:15 --> Call to undefined method App\Models\Spp_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:59:16 --> Call to undefined method App\Models\Spp_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 06:59:17 --> Call to undefined method App\Models\Spp_model::getData
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(132): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 07:00:07 --> Undefined variable $id
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 07:02:25 --> Undefined variable $id
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 07:02:25 --> Undefined variable $id
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 07:02:26 --> Undefined variable $id
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-08 07:02:26 --> Undefined variable $id
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->excel4()
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

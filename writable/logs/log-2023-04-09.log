@@ -1,0 +1,687 @@
+ERROR - 2023-04-09 00:00:09 --> Unknown column 'tmpt_tinggal' in 'where clause'
+CRITICAL - 2023-04-09 00:00:09 --> Unknown column 'tmpt_tinggal' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->index()
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-04-09 00:02:04 --> Unknown column 'tmpt_tinggal' in 'where clause'
+CRITICAL - 2023-04-09 00:02:04 --> Unknown column 'tmpt_tinggal' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->index()
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-09 00:12:45 --> dataguru is not a validation rules group.
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('dataguru')
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('dataguru')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(89): CodeIgniter\Validation\Validation->run(Array, 'dataguru')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->store3()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-09 00:20:34 --> Undefined index: nisn
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\idx3.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/idx3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(62): view('dataguru/idx3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->index()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:21:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\edit2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(107): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:33:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\edit2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(107): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:36:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\edit2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(107): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:39:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\edit2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(107): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:39:45 --> Undefined index: nis
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\edit3.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(109): view('dataguru/edit3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:39:59 --> Undefined index: nis
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\edit3.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(109): view('dataguru/edit3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:40:37 --> Undefined index: jabatn
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\edit3.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(109): view('dataguru/edit3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 00:41:25 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 00:44:00 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 00:46:30 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 00:46:31 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 00:47:26 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 01:05:34 --> Undefined variable: category
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\edit3.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(109): view('dataguru/edit3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 01:05:52 --> Undefined index: tgl_lhr
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\edit3.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(109): view('dataguru/edit3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 01:06:26 --> Undefined index: tgl_lzhir
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\dataguru\edit3.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(109): view('dataguru/edit3', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('k')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 01:13:53 --> Call to undefined method App\Models\Dataguru_model::deleteDataguru
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(159): CodeIgniter\Model->__call('deleteDataguru', Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->delete3('k')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-09 01:23:28 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 01:28:21 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 01:34:55 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 01:39:21 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 01:58:25 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 01:59:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\category\show.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('category/show', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Category.php(165): view('category/show', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Category->show('0921')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 02:02:19 --> Too few arguments to function App\Controllers\Dataguru::edit3(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-04-09 02:04:53 --> Unknown column 'status_buku' in 'where clause'
+CRITICAL - 2023-04-09 02:04:53 --> Unknown column 'status_buku' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Category.php(51): CodeIgniter\BaseModel->paginate(6, 'category')
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-04-09 02:06:52 --> Unknown column 'status_buku' in 'where clause'
+CRITICAL - 2023-04-09 02:06:52 --> Unknown column 'status_buku' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Category.php(51): CodeIgniter\BaseModel->paginate(6, 'category')
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-09 02:24:23 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 02:25:38 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 02:27:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 02:48:44 --> syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-09 02:49:45 --> mysqli_query() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(55): mysqli_query('SElECT * FROM p...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-09 02:56:32 --> Object of class App\Models\Emis_model could not be converted to string
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-04-09 02:57:56 --> Undefined variable: tampil
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 02:58:06 --> array_column() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(55): array_column('nisn', 'id_daftar')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(68): view('emis/create2')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-09 03:07:53 --> Undefined variable: emismodel
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(802): App\Controllers\Emis->__construct()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-09 03:12:48 --> Undefined variable: tampil
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\create2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/create2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(73): view('emis/create2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->create2()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-04-09 03:42:03 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:42:03 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(136): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 03:44:25 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:44:25 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 03:45:58 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:45:58 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 03:47:22 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:47:22 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 03:48:47 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:48:47 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 03:52:54 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:52:54 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 03:55:00 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:55:00 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-09 03:57:07 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\idx2.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(62): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 03:57:14 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\idx2.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(62): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-04-09 03:58:03 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 03:58:03 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:01:41 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:01:41 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:02:54 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:02:54 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:02:59 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:02:59 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(134): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:06:17 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:06:17 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(136): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:07:33 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:07:33 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(136): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:07:43 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:07:43 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(136): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-09 04:07:50 --> Unknown column 'emis' in 'where clause'
+CRITICAL - 2023-04-09 04:07:50 --> Unknown column 'emis' in 'where clause'
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `emis` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `emis` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `emis` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `emis` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Emis_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(136): App\Models\Emis_model->updateCategory(Array, '88888')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-09 04:07:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\edit2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(108): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('AJSNALN')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 04:08:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Views\emis\edit2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Emis.php(108): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('AJSNALN')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-09 04:08:04 --> Too few arguments to function App\Controllers\Emis::edit2(), 0 passed in C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Emis->edit2()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-09 04:12:34 --> Call to undefined method App\Models\Dataguru_model::deleteDataguru
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Dataguru.php(159): CodeIgniter\Model->__call('deleteDataguru', Array)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Dataguru->delete3('k')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,181 @@
+ERROR - 2023-01-26 07:18:37 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-01-26 07:18:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 07:31:25 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-26 07:52:46 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-26 19:30:06 --> Undefined variable: dosen0023
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:31:23 --> Undefined variable: dosen0023
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:31:39 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:32:12 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:32:33 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:32:42 --> Illegal string offset 'judul_buku'
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:34:08 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:34:40 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-26 19:36:27 --> Undefined index: nama_dosen
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\show.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/show', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(140): view('category/show', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->show('1')
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:36:57 --> Undefined index: id_dosen
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\edit.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/edit', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(103): view('category/edit', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->edit('1')
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:39:20 --> Undefined index: jenis_kelamin
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Views\category\edit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Common.php(1089): CodeIgniter\View\View->render('category/edit', Array, true)
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\app\Controllers\Category.php(103): view('category/edit', Array)
+#5 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->edit('1')
+#6 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-26 19:39:37 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-26 19:40:57 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-26 19:40:58 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\COBAUAS\UAS WEB\ci4_dosen\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

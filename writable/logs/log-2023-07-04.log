@@ -1,0 +1,77 @@
+CRITICAL - 2023-07-04 21:39:56 --> Undefined variable $pager
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Views\pengumuman\idx24.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 125)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pengumuman/idx2...', Array, true)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Pengumuman.php(62): view('pengumuman/idx2...', Array)
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->index()
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}
+CRITICAL - 2023-07-04 21:53:24 --> Undefined variable $manajemenkelas
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Views\pengumuman\edit24.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 43)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pengumuman/edit...', Array, true)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Pengumuman.php(102): view('pengumuman/edit...', Array)
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->edit24('1')
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}
+CRITICAL - 2023-07-04 21:54:08 --> Undefined variable $manajemenkelas
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Views\pengumuman\edit24.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\KULIAH\\SEMES...', 42)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pengumuman/edit...', Array, true)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Pengumuman.php(102): view('pengumuman/edit...', Array)
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->edit24('1')
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}
+CRITICAL - 2023-07-04 21:56:11 --> pengumuman is not a validation rules group.
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('pengumuman')
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('pengumuman')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Pengumuman.php(116): CodeIgniter\Validation\Validation->run(Array, 'pengumuman')
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->update24()
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}
+CRITICAL - 2023-07-04 21:57:07 --> Too few arguments to function App\Controllers\Pengumuman::edit24(), 0 passed in E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->edit24()
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2023-07-04 21:59:55 --> Too few arguments to function App\Controllers\Pengumuman::edit24(), 0 passed in E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->edit24()
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2023-07-04 22:02:34 --> Too few arguments to function App\Controllers\Pengumuman::edit24(), 0 passed in E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->edit24()
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#5 {main}
+CRITICAL - 2023-07-04 22:06:32 --> pengumuman is not a validation rules group.
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('pengumuman')
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('pengumuman')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Pengumuman.php(82): CodeIgniter\Validation\Validation->run(Array, 'pengumuman')
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pengumuman->store24()
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#8 {main}

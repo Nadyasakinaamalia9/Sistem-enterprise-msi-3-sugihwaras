@@ -1,0 +1,639 @@
+CRITICAL - 2023-05-19 07:11:06 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dataguru.php(148): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-19 07:12:53 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-19 07:30:04 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\ujian\create5.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('ujian/create5', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Ujian.php(78): view('ujian/create5')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Ujian->create5()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ujian))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 07:36:03 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-19 09:04:16 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dataguru.php(148): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-19 11:50:45 --> Undefined variable $dosen0072
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 255)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(23): view('dashboard')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 11:53:32 --> Undefined variable $dosen0072
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 255)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(28): view('dashboard')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:00:28 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:01:05 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:02:43 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:05:19 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-19 12:09:25 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:09:25 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-19 12:10:08 --> Too few arguments to function App\Controllers\Dashboard::index(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-19 12:10:50 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:10:50 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'nis')
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(23): CodeIgniter\BaseModel->find('nis')
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-19 12:15:33 --> Call to a member function count() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:15:53 --> Call to a member function count() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:18:44 --> Call to a member function countAllResult() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:21:29 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:21:48 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:24:56 --> Too few arguments to function App\Controllers\Emis::show2(), 0 passed in C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:28:04 --> Undefined array key "nis"
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-19 12:28:26 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:28:26 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'nis')
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(26): CodeIgniter\BaseModel->find('nis')
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-05-19 12:28:45 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:28:45 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(26): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-05-19 12:28:46 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:28:46 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(26): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-05-19 12:28:47 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:28:47 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(26): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-05-19 12:28:47 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:28:47 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(26): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-05-19 12:28:47 --> Unknown column 'emis.id' in 'where clause'
+CRITICAL - 2023-05-19 12:28:47 --> Unknown column 'emis.id' in 'where clause'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(26): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-19 12:28:52 --> Undefined array key "nis"
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-19 12:38:56 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:00 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:07 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:25 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:27 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:27 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:27 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:40:27 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 12:45:20 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:45:58 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:46:02 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:46:53 --> Call to a member function countAllResults() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 12:47:39 --> Call to a member function countAllResults() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-19 13:13:45 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dataguru.php(148): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-19 13:26:03 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:26:25 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:26:56 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:03 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:33 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:34 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:35 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:35 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:35 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:35 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:35 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:45 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:46 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:46 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:47 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:47 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:49 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-19 13:27:58 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\idx2.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/idx2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(60): view('emis/idx2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

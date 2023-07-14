@@ -1,0 +1,558 @@
+CRITICAL - 2023-06-14 00:29:20 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 00:31:40 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:00:51 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:01:02 --> Invalid file: siswaprofil/show17.php
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswaprofil/sho...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('siswaprofil/sho...', Array, true)
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Siswaprofil.php(169): view('siswaprofil/sho...', Array)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->show17('1122')
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-14 01:20:30 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:40:59 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:35 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:35 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:36 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:36 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:36 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:36 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:47:36 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:53:15 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:53:16 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:53:16 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 01:53:16 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:00:05 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:01:54 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:06:08 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:06:15 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:06:39 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:07:46 --> Too few arguments to function App\Controllers\Siswaprofil::edit17(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 02:10:12 --> Undefined variable $siswaprofil
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\siswaprofil\edit17.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 41)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('siswaprofil/edi...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Siswaprofil.php(118): view('siswaprofil/edi...', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Siswaprofil->edit17('101')
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswaprofil))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+ERROR - 2023-06-14 02:16:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`))
+CRITICAL - 2023-06-14 02:16:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`))
+#0 C:\xampp\UTS_Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\UTS_Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi\app\Models\Auth_model.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth.php(146): App\Models\Auth_model->register(Array)
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth->proses_register()
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+ERROR - 2023-06-14 02:17:48 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`))
+CRITICAL - 2023-06-14 02:17:48 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`))
+#0 C:\xampp\UTS_Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\UTS_Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi\app\Models\Auth_model.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth.php(146): App\Models\Auth_model->register(Array)
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth->proses_register()
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+ERROR - 2023-06-14 02:18:45 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`) ON UPDATE NO ACTION)
+CRITICAL - 2023-06-14 02:18:45 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`) ON UPDATE NO ACTION)
+#0 C:\xampp\UTS_Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\UTS_Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi\app\Models\Auth_model.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth.php(146): App\Models\Auth_model->register(Array)
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth->proses_register()
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+ERROR - 2023-06-14 02:19:15 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`) ON UPDATE CASCADE)
+CRITICAL - 2023-06-14 02:19:15 --> Cannot add or update a child row: a foreign key constraint fails (`db_msi_sugihwaras_rev_1`.`user`, CONSTRAINT `user_ibfk_2` FOREIGN KEY (`id_pegawai`) REFERENCES `emis` (`nis`) ON UPDATE CASCADE)
+#0 C:\xampp\UTS_Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\UTS_Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\UTS_Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi\app\Models\Auth_model.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\UTS_Enterprise_msi\app\Controllers\Auth.php(146): App\Models\Auth_model->register(Array)
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Auth->proses_register()
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+CRITICAL - 2023-06-14 19:09:55 --> Call to undefined method App\Models\Viewpembayaran_model::getPaymentsByUser
+#0 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(26): CodeIgniter\Model->__call('getPaymentsByUs...', Array)
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-14 19:10:36 --> Call to undefined method App\Models\Viewpembayaran_model::getPaymentsByUser
+#0 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(26): CodeIgniter\Model->__call('getPaymentsByUs...', Array)
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-14 19:10:37 --> Call to undefined method App\Models\Viewpembayaran_model::getPaymentsByUser
+#0 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(26): CodeIgniter\Model->__call('getPaymentsByUs...', Array)
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-14 19:16:50 --> Call to a member function query() on null
+#0 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(26): App\Models\Viewpembayaran_model->getPaymentByUser('9999')
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-14 19:19:21 --> Invalid file: payments/view.php
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payments/view.p...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/view', Array, true)
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Spp.php(71): view('payments/view', Array)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-14 19:19:27 --> Invalid file: payments/view.php
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payments/view.p...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/view', Array, true)
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Spp.php(71): view('payments/view', Array)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-14 19:21:26 --> Invalid file: payments/view.php
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payments/view.p...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/view', Array, true)
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Spp.php(71): view('payments/view', Array)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-14 19:24:07 --> Invalid file: payments/view.php
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payments/view.p...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/view', Array, true)
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Spp.php(71): view('payments/view', Array)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-14 19:24:10 --> Invalid file: payments/view.php
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payments/view.p...')
+#1 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/view', Array, true)
+#2 C:\xampp\UTS_Enterprise_msi\app\Controllers\Spp.php(71): view('payments/view', Array)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#8 {main}
+CRITICAL - 2023-06-14 19:33:46 --> Call to undefined function form_label()
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 19:34:03 --> Undefined variable $key
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\payments\idx19.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 73)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 19:34:13 --> Unsupported operand types: array + int
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 19:34:48 --> Undefined variable $row
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\payments\idx19.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 78)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 19:35:09 --> Undefined variable $pager
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\payments\idx19.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 107)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 19:35:21 --> Call to a member function links() on array
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 19:36:13 --> Call to a member function links() on array
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('payments/idx19', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewpembayaran.php(28): view('payments/idx19', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewpembayaran->index()
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewpembayaran))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 21:22:49 --> Too few arguments to function App\Controllers\Viewnilai::index(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 21:26:17 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\UTS_Enterprise_msi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('viewnilai')
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('viewnilai')
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-14 21:38:03 --> Cannot access offset of type string on string
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(32): view('nilai/idx20', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 22:10:57 --> Undefined variable $nilaiSiswa
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\nilai\idx20.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 84)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(32): view('nilai/idx20', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 22:11:08 --> Undefined variable $nilaiSiswa
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\nilai\idx20.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 84)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(32): view('nilai/idx20', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 22:36:08 --> Too few arguments to function App\Controllers\Guruprofil::edit14(), 0 passed in C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Guruprofil->edit14()
+#1 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guruprofil))
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-14 22:47:52 --> Undefined variable $nilaiSiswa
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\nilai\idx20.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 72)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(32): view('nilai/idx20', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 22:49:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\UTS_Enterprise_msi\app\Models\Viewnilai_model.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\UTS_En...', 14)
+#1 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(27): App\Models\Viewnilai_model->getNilaiSiswa(true)
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index(true)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#7 {main}
+CRITICAL - 2023-06-14 22:50:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\UTS_Enterprise_msi\app\Models\Viewnilai_model.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\UTS_En...', 14)
+#1 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(27): App\Models\Viewnilai_model->getNilaiSiswa(true)
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index(true)
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#7 {main}
+CRITICAL - 2023-06-14 22:50:35 --> Undefined variable $nilaiSiswa
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\nilai\idx20.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 69)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(32): view('nilai/idx20', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 22:50:40 --> Undefined variable $nilaiSiswa
+#0 C:\xampp\UTS_Enterprise_msi\app\Views\nilai\idx20.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 69)
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(32): view('nilai/idx20', Array)
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#7 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-14 22:51:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\UTS_Enterprise_msi\app\Models\Viewnilai_model.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\UTS_En...', 14)
+#1 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(27): App\Models\Viewnilai_model->getNilaiSiswa('9999')
+#2 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('9999')
+#3 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#7 {main}
+CRITICAL - 2023-06-14 23:04:23 --> Cannot access offset of type string on string
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(50): view('nilai/idx20', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 23:08:39 --> Cannot access offset of type string on string
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(50): view('nilai/idx20', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 23:09:38 --> Cannot access offset of type string on string
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(50): view('nilai/idx20', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}
+CRITICAL - 2023-06-14 23:09:40 --> Cannot access offset of type string on string
+#0 C:\xampp\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('nilai/idx20', Array, true)
+#3 C:\xampp\UTS_Enterprise_msi\app\Controllers\Viewnilai.php(50): view('nilai/idx20', Array)
+#4 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Viewnilai->index('101')
+#5 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viewnilai))
+#6 C:\xampp\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#9 {main}

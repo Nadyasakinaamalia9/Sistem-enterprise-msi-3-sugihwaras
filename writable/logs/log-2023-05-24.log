@@ -1,0 +1,516 @@
+CRITICAL - 2023-05-24 06:26:23 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 06:26:33 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 06:33:18 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-24 06:35:28 --> Duplicate entry '1122' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:35:28 --> Duplicate entry '1122' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 06:36:05 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 06:36:23 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 06:36:29 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-24 06:36:34 --> Duplicate entry '9999' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:36:34 --> Duplicate entry '9999' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 06:37:36 --> penjadwalan is not a validation rules group.
+#0 C:\xampp\htdocs\Enterprise_msi\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('penjadwalan')
+#1 C:\xampp\htdocs\Enterprise_msi\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('penjadwalan')
+#2 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Penjadwalan.php(60): CodeIgniter\Validation\Validation->run(Array, 'penjadwalan')
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->store16()
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 06:39:10 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 06:40:23 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-24 06:40:38 --> Duplicate entry '9999' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:40:38 --> Duplicate entry '9999' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 06:41:26 --> Duplicate entry '9999' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:41:26 --> Duplicate entry '9999' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 06:43:12 --> Duplicate entry '9999' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:43:12 --> Duplicate entry '9999' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 06:49:49 --> Duplicate entry '0P92K' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:49:49 --> Duplicate entry '0P92K' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 06:51:43 --> Duplicate entry '0P92K' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:51:43 --> Duplicate entry '0P92K' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 06:52:35 --> Duplicate entry '0P92K' for key 'PRIMARY'
+CRITICAL - 2023-05-24 06:52:35 --> Duplicate entry '0P92K' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 06:58:54 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-24 07:03:10 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-24 07:03:17 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-24 07:03:40 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-24 07:19:58 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dataguru.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-05-24 07:26:07 --> Duplicate entry '0P92K' for key 'PRIMARY'
+CRITICAL - 2023-05-24 07:26:07 --> Duplicate entry '0P92K' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 07:35:24 --> Duplicate entry '1122' for key 'PRIMARY'
+CRITICAL - 2023-05-24 07:35:24 --> Duplicate entry '1122' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(154): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 07:38:52 --> Duplicate entry '1122' for key 'PRIMARY'
+CRITICAL - 2023-05-24 07:38:52 --> Duplicate entry '1122' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(156): App\Models\Emis_model->insertCategory(Array, '1122')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 07:40:17 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:40:21 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:40:23 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:40:36 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:40:37 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:40:40 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-24 07:43:02 --> Duplicate entry '1122' for key 'PRIMARY'
+CRITICAL - 2023-05-24 07:43:02 --> Duplicate entry '1122' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(156): App\Models\Emis_model->insertCategory(Array, '1122')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 07:43:12 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:43:15 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:43:22 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:44:01 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 07:46:49 --> Undefined variable: dataguru
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\edit2.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(118): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('0P92K')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 07:46:53 --> Undefined variable: dataguru
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\edit2.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/edit2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(118): view('emis/edit2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->edit2('1122')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-05-24 07:49:45 --> Duplicate entry '1122' for key 'PRIMARY'
+CRITICAL - 2023-05-24 07:49:45 --> Duplicate entry '1122' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(156): App\Models\Emis_model->insertCategory(Array, '1122')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 10:45:34 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 11:13:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\app\Views\pembelajaran\show11.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/sh...', Array, true)
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Pembelajaran.php(158): view('pembelajaran/sh...', Array)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->show11('15')
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 11:30:03 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->update11()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 11:33:21 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->update11()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 12:03:47 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 12:04:46 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 12:06:25 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 12:17:10 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/edit3', Array, true)
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(115): view('dataguru/edit3', Array)
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->edit3('93K3')
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-24 12:20:10 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(153): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 12:20:39 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(153): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 12:24:55 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(153): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 21:21:52 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Dataguru.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->update3()
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-24 21:29:56 --> Call to undefined method App\Models\Datanilai_model::deleteDatanilai
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Datanilai.php(156): CodeIgniter\Model->__call('deleteDatanilai', Array)
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->delete8('88888')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-24 21:30:03 --> Call to undefined method App\Models\Datanilai_model::deleteDatanilai
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Datanilai.php(156): CodeIgniter\Model->__call('deleteDatanilai', Array)
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->delete8('88888')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-24 21:30:19 --> Call to undefined method App\Models\Datanilai_model::deleteDatanilai
+#0 C:\xampp\htdocs\UTS_Enterprise_msi\app\Controllers\Datanilai.php(156): CodeIgniter\Model->__call('deleteDatanilai', Array)
+#1 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->delete8('88888')
+#2 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#3 C:\xampp\htdocs\UTS_Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UTS_Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\UTS_Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

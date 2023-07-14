@@ -1,0 +1,741 @@
+CRITICAL - 2023-05-20 00:14:22 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#2 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(2): view('_partials/sideb...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(70): view('spp/idx4', Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-20 00:14:43 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('_partials/sideb...', Array, true)
+#2 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(2): view('_partials/sideb...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(70): view('spp/idx4', Array)
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-20 00:37:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(96): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('88888')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:37:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(96): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('88888')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:40:40 --> Undefined variable: dataguru
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(102): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('9999')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:41:07 --> Undefined variable: dataguru
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(102): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('9999')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:41:21 --> Undefined index: foto
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(102): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('9999')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:41:42 --> Undefined index: bukti_spppp
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(102): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('9999')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:41:48 --> Undefined index: tanggal
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\show4.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/show4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(102): view('spp/show4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('9999')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 00:45:20 --> Undefined variable: spp
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\dataguru\show3.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dataguru/show3', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dataguru.php(162): view('dataguru/show3', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dataguru->show3('aabbcc')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataguru))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 01:29:23 --> Undefined index: file
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\show2.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/show2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(158): view('emis/show2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2('0PO92')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 01:42:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\emis\show2.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('emis/show2', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(158): view('emis/show2', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->show2('LL')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-05-20 01:59:47 --> Duplicate entry 'q' for key 'PRIMARY'
+CRITICAL - 2023-05-20 01:59:47 --> Duplicate entry 'q' for key 'PRIMARY'
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Models\Emis_model.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(99): App\Models\Emis_model->insertCategory(Array)
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-20 02:05:09 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:05:18 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:06:57 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:07:06 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:07:14 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:09:33 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:09:38 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:10:15 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:10:19 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:11:42 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:11:50 --> Undefined variable: name
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 02:12:18 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:12:23 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:12:30 --> Undefined variable: name
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Emis.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 02:12:36 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:12:50 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:14:28 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:16:02 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:16:56 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:17:14 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:19:05 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->update2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:22:18 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:39:05 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:40:02 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 02:45:11 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Emis->store2()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emis))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 03:11:32 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pengeluaransarpras->store15()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengeluaransarpras))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 03:18:38 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pengeluaransarpras->update15()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengeluaransarpras))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 03:24:56 --> Undefined variable: data
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 03:25:53 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 03:25:55 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 03:26:21 --> Undefined variable: nomor
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 03:26:21 --> Undefined variable: nomor
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 03:26:21 --> Undefined variable: nomor
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 03:26:22 --> Undefined variable: nomor
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 03:26:22 --> Undefined variable: nomor
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 03:27:24 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 03:27:40 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 03:28:33 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 03:28:42 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:14:41 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:14:59 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:15:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:15:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:15:57 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:16:28 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#2 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-20 04:16:49 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#2 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-20 04:16:53 --> Undefined variable: key
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:17:00 --> Undefined variable: row
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:21:37 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:21:59 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:22:10 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 04:25:10 --> Array to string conversion
+#0 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-20 04:40:11 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:40:24 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:40:25 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:40:25 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:40:25 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:40:25 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:40:26 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4('1122')
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-20 04:44:30 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(69): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-20 05:07:35 --> Undefined variable: spp
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\spp\idx4.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(71): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-05-20 08:22:57 --> Table 'db_msi_sugihwaras_rev_1.penjadwalan' doesn't exist
+CRITICAL - 2023-05-20 08:22:57 --> Table 'db_msi_sugihwaras_rev_1.penjadwalan' doesn't exist
+#0 C:\xampp\htdocs\Enterprise_msi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Enterprise_msi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Enterprise_msi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Enterprise_msi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Penjadwalan.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->index()
+#8 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-20 17:15:50 --> Undefined variable: ambildata
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\_partials\header.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('_partials/heade...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(1): view('_partials/heade...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#8 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(36): view('dashboard', Array)
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#10 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-20 17:15:54 --> Undefined variable: ambildata
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\_partials\header.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('_partials/heade...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Views\dashboard.php(1): view('_partials/heade...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#8 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Dashboard.php(36): view('dashboard', Array)
+#9 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#10 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

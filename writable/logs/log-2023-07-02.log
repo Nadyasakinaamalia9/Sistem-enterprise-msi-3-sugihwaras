@@ -1,0 +1,44 @@
+CRITICAL - 2023-07-02 21:45:19 --> Trying to access array offset on value of type null
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Views\manajemenajaran1\edit23.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\KULIAH\\SEMES...', 43)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('manajemenajaran...', Array, true)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Manajemenajaran1.php(102): view('manajemenajaran...', Array)
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Manajemenajaran1->edit23('2020', '2021')
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemenajaran1))
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}
+CRITICAL - 2023-07-02 21:48:35 --> Array to string conversion
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\KULIAH\\SEMES...', 53)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#6 {main}
+CRITICAL - 2023-07-02 21:50:16 --> Trying to access array offset on value of type null
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Views\manajemenajaran1\edit23.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\KULIAH\\SEMES...', 43)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('manajemenajaran...', Array, true)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Manajemenajaran1.php(102): view('manajemenajaran...', Array)
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Manajemenajaran1->edit23('2020', '2021')
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemenajaran1))
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}
+CRITICAL - 2023-07-02 21:50:55 --> Trying to access array offset on value of type null
+#0 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Views\manajemenajaran1\edit23.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\KULIAH\\SEMES...', 43)
+#1 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('E:\\KULIAH\\SEMES...')
+#2 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('manajemenajaran...', Array, true)
+#4 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\app\Controllers\Manajemenajaran1.php(102): view('manajemenajaran...', Array)
+#5 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Manajemenajaran1->edit23('2020', '2021')
+#6 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemenajaran1))
+#7 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\KULIAH\SEMESTER 4\SISTEM ENTERPRISE\Enterprise\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('E:\\KULIAH\\SEMES...')
+#10 {main}

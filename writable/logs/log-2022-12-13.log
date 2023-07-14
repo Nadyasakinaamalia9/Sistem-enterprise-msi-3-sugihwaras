@@ -1,0 +1,108 @@
+CRITICAL - 2022-12-13 00:03:00 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', NULL, Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:04:53 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', NULL, Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:21:59 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', NULL, Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:23:27 --> products is not a validation rules group.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('products')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('products')
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'products')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:29:13 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', NULL, Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:29:31 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', NULL, Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:31:07 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', '1670913067_dae3...', Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:31:10 -->          is not a valid rule.
+#0 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('        ')
+#1 C:\xampp\htdocs\ci4_app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('product_image', 'product_image', '1670913070_c201...', Array, Array)
+#2 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(50): CodeIgniter\Validation\Validation->run(Array, 'product')
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#4 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-12-13 00:37:59 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->store()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-12-13 00:38:26 --> Undefined variable $page
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): view('product/index', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-13 01:11:02 --> Undefined property: App\Controllers\Product::$Category_model
+#0 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->create()
+#2 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

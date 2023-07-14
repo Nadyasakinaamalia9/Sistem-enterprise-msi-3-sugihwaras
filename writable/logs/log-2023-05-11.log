@@ -1,0 +1,190 @@
+CRITICAL - 2023-05-11 02:51:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\pembelajaran\show11.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/sh...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(159): view('pembelajaran/sh...', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->show11('php', 'public', 'uploads', 'design db msi3_...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-11 02:51:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\pembelajaran\show11.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/sh...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(159): view('pembelajaran/sh...', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->show11('php', 'public', 'uploads', 'design db msi3_...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-11 02:51:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\pembelajaran\show11.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/sh...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(159): view('pembelajaran/sh...', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->show11('php', 'public', 'uploads', 'design db msi3_...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-11 02:53:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\pembelajaran\show11.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/sh...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(159): view('pembelajaran/sh...', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->show11('public', 'uploads', 'design db msi3_...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-11 02:53:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\pembelajaran\show11.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/sh...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(159): view('pembelajaran/sh...', Array)
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->show11('public', 'uploads', 'design db msi3_...')
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-11 03:09:22 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->update11()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 03:10:52 --> Call to a member function getName() on string
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->update11()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 03:29:43 --> readfile(C:\xampp\htdocs\Enterprise_msi\public/uploads/): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xam...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(112): readfile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->viewPdf()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-11 03:32:04 --> readfile(C:\xampp\htdocs\Enterprise_msi\public/uploads/): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xam...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(111): readfile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->viewPdf()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-11 03:59:26 --> File wajib diisi PDF is not a valid rule.
+#0 C:\xampp\htdocs\Enterprise_msi\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('File wajib diis...')
+#1 C:\xampp\htdocs\Enterprise_msi\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('file', 'file', false, Array, Array)
+#2 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Pembelajaran.php(89): CodeIgniter\Validation\Validation->run(Array, 'pembelajaran')
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->store11()
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-11 04:06:25 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 04:10:19 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 04:12:03 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 04:12:14 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 04:14:02 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 04:14:08 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-11 04:16:34 --> Could not move file php86C5.tmp to C:\xampp\htdocs\Enterprise_msi\public/uploads/ ()
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php86C5.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(172): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-11 04:20:38 --> Could not move file php4322.tmp to C:\xampp\htdocs\Enterprise_msi\../uploads/ ()
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php4322.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(172): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-11 04:23:32 --> Could not move file phpE94D.tmp to C:\xampp\htdocs\Enterprise_msi\public/uploads/ ()
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpE94D.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(172): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-11 04:25:47 --> Could not move file phpF9FD.tmp to C:\xampp\htdocs\Enterprise_msi\public/uploads/ ()
+#0 C:\xampp\htdocs\Enterprise_msi\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpF9FD.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Spp.php(172): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-05-11 04:56:32 --> Invalid file: peminjaman/show13.php
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/show...')
+#1 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/show...', Array, true)
+#2 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Peminjaman.php(144): view('peminjaman/show...', Array)
+#3 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Peminjaman->show13('93K3')
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

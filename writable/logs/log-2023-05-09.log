@@ -1,0 +1,237 @@
+CRITICAL - 2023-05-09 03:52:30 --> Undefined variable $row
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Views\spp\idx4.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('spp/idx4', Array, true)
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\app\Controllers\Spp.php(70): view('spp/idx4', Array)
+#5 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->index()
+#6 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#7 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 03:52:50 --> Too few arguments to function App\Controllers\Spp::show4(), 0 passed in C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->show4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:04:55 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:07:07 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:07:13 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:07:57 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:08:49 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:09:55 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:10:24 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:10:35 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:11:02 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:12:40 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:13:00 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:13:07 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 20:13:30 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Spp->store4()
+#1 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Spp))
+#2 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kelompok_se\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kelompok_se\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 21:31:25 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('guruprofil/idx1...', Array, true)
+#3 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Guruprofil.php(62): view('guruprofil/idx1...', Array)
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Guruprofil->index()
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guruprofil))
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-09 21:31:37 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('guruprofil/idx1...', Array, true)
+#3 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Guruprofil.php(62): view('guruprofil/idx1...', Array)
+#4 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Guruprofil->index()
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guruprofil))
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-09 22:04:20 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(69): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:06:34 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(71): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:06:36 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(71): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:06:36 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(71): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:06:36 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(71): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:06:36 --> Undefined variable $datanis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(71): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:07:39 --> Undefined variable $data_nis
+#0 C:\xampp\htdocs\Enterprise_msi\app\Views\datanilai\create8.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Enterprise_msi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Enterprise_msi\system\Common.php(1089): CodeIgniter\View\View->render('datanilai/creat...', Array, true)
+#4 C:\xampp\htdocs\Enterprise_msi\app\Controllers\Datanilai.php(71): view('datanilai/creat...')
+#5 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#6 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#7 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-09 22:09:38 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 22:10:04 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-09 22:10:25 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(825): App\Controllers\Datanilai->create8()
+#1 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datanilai))
+#2 C:\xampp\htdocs\Enterprise_msi\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Enterprise_msi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Enterprise_msi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

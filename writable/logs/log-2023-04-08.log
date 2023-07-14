@@ -1,0 +1,63 @@
+ERROR - 2023-04-08 23:48:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_msi3`.`emis`, CONSTRAINT `emis_ibfk_2` FOREIGN KEY (`nik`) REFERENCES `ppdb` (`nik`))
+CRITICAL - 2023-04-08 23:48:17 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_msi3`.`emis`, CONSTRAINT `emis_ibfk_2` FOREIGN KEY (`nik`) REFERENCES `ppdb` (`nik`))
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ppdb` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ppdb` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ppdb` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `ppdb` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Category_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Category.php(151): App\Models\Category_model->updateCategory(Array, 'AKDBASNK')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Category->update()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-08 23:48:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_msi3`.`emis`, CONSTRAINT `emis_ibfk_2` FOREIGN KEY (`nik`) REFERENCES `ppdb` (`nik`))
+CRITICAL - 2023-04-08 23:48:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_msi3`.`emis`, CONSTRAINT `emis_ibfk_2` FOREIGN KEY (`nik`) REFERENCES `ppdb` (`nik`))
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ppdb` S...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ppdb` S...')
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ppdb` S...')
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `ppdb` S...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Models\Category_model.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\ci4_PERPUS _nadya\app\Controllers\Category.php(151): App\Models\Category_model->updateCategory(Array, 'AKDBASNK')
+#6 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(825): App\Controllers\Category->update()
+#7 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-08 23:58:41 --> Class 'App\Models\Category_model' not found
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(802): App\Controllers\Category->__construct()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-08 23:58:51 --> Class 'App\Models\Category_model' not found
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(802): App\Controllers\Category->__construct()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-08 23:58:54 --> Class 'App\Models\Dataguru_model' not found
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(802): App\Controllers\Dataguru->__construct()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-08 23:59:00 --> Class 'App\Models\Category_model' not found
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(802): App\Controllers\Category->__construct()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-08 23:59:31 --> Class 'App\Models\Category_model' not found
+#0 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(802): App\Controllers\Category->__construct()
+#1 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci4_PERPUS _nadya\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS _nadya\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS _nadya\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

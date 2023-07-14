@@ -1,0 +1,51 @@
+ERROR - 2022-12-12 22:20:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-12-12 22:20:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ci4_app\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_app\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_app\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ci4_app\app\Models\Category_model.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ci4_app\app\Controllers\Category.php(14): App\Models\Category_model->getCategory()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-12 22:21:14 --> Undefined variable $categories
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(23): view('product/index', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 22:26:05 --> Undefined variable $categories
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/index', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(22): view('product/index', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 23:56:04 --> Undefined variable $product_desc
+#0 C:\xampp\htdocs\ci4_app\app\Views\product\create.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 119)
+#1 C:\xampp\htdocs\ci4_app\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_app\system\Common.php(1089): CodeIgniter\View\View->render('product/create', Array, true)
+#4 C:\xampp\htdocs\ci4_app\app\Controllers\Product.php(29): view('product/create', Array)
+#5 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(825): App\Controllers\Product->create()
+#6 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ci4_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

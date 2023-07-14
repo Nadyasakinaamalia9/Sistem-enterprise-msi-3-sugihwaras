@@ -1,0 +1,524 @@
+CRITICAL - 2023-04-04 00:02:41 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 00:05:27 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 00:25:36 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 00:29:17 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 01:02:48 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-04-04 01:27:45 --> Table 'db_msi3.buku0072' doesn't exist
+CRITICAL - 2023-04-04 01:27:45 --> Table 'db_msi3.buku0072' doesn't exist
+#0 C:\xampp\htdocs\ci4_PERPUS\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#8 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#9 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-04 01:28:35 --> Undefined index: judul_buku
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 01:31:04 --> Undefined index: status_buku
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 01:31:24 --> Undefined index: action
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 01:31:25 --> Undefined index: action
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 01:32:18 --> Undefined index: action
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 01:43:29 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 01:51:30 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 01:52:18 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 01:52:19 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 01:57:50 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 01:57:54 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 01:58:04 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:02:01 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:04:02 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:04:53 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:05:49 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:09:49 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:09:51 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:09:51 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:09:52 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:09:53 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:15:24 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:15:24 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:15:25 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:19:40 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:24:11 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:24:40 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 02:24:44 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 02:24:47 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 02:24:51 --> Undefined variable: dosen0072
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\index.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/index', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(62): view('category/index', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 02:25:21 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 02:26:04 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 02:26:46 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 02:27:14 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 02:27:17 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 02:27:21 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 02:27:38 --> Too few arguments to function App\Controllers\Category::show(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->show()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 03:03:13 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 03:08:48 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 03:09:15 --> Undefined index: judul_buku
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\show.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/show', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(164): view('category/show', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->show('AKDBASNK')
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-04-04 03:22:43 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-04-04 03:22:43 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\ci4_PERPUS\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pp...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Models\Category_model.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(101): App\Models\Category_model->insertCategory(Array)
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->store()
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-04 03:23:06 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-04-04 03:23:06 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\ci4_PERPUS\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pp...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Models\Category_model.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(101): App\Models\Category_model->insertCategory(Array)
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->store()
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-04 03:26:54 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-04-04 03:26:54 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\ci4_PERPUS\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pp...', 0)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Models\Category_model.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(101): App\Models\Category_model->insertCategory(Array)
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->store()
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#8 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-04 03:47:07 --> Undefined variable: each
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Views\category\edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_PERPUS\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_PERPUS\system\Common.php(1089): CodeIgniter\View\View->render('category/edit', Array, true)
+#4 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Category.php(116): view('category/edit', Array)
+#5 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit('1122')
+#6 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#7 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-04 04:12:24 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 04:18:05 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 04:24:29 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 04:24:30 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 04:36:34 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 04:36:50 --> Too few arguments to function App\Controllers\Category::edit(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->edit()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 04:37:12 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 19:57:05 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 20:27:00 --> Too few arguments to function App\Controllers\Category::delete(), 0 passed in C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Category->delete()
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-04 20:52:34 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-04 21:09:08 --> Undefined property: App\Controllers\Product::$category_model
+#0 C:\xampp\htdocs\ci4_PERPUS\app\Controllers\Product.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(825): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\ci4_PERPUS\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_PERPUS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_PERPUS\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

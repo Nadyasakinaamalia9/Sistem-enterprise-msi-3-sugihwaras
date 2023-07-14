@@ -1,0 +1,410 @@
+CRITICAL - 2023-06-18 04:01:19 --> Undefined variable $penjadwalan
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\penjadwalan\create16.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 93)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('penjadwalan/cre...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Penjadwalan.php(68): view('penjadwalan/cre...', Array)
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->create16()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 04:04:35 --> Undefined variable $jadwal
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\penjadwalan\create16.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 93)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('penjadwalan/cre...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Penjadwalan.php(68): view('penjadwalan/cre...', Array)
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->create16()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 04:16:16 --> Undefined variable $kelas
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\penjadwalan\create16.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 95)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('penjadwalan/cre...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Penjadwalan.php(68): view('penjadwalan/cre...', Array)
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->create16()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+ERROR - 2023-06-18 05:02:00 --> Table 'db_msi_sugihwaras_rev.manajemenkelas' doesn't exist
+CRITICAL - 2023-06-18 05:02:00 --> Table 'db_msi_sugihwaras_rev.manajemenkelas' doesn't exist
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Models\Penjadwalan_model.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Penjadwalan.php(70): App\Models\Penjadwalan_model->getKelas()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->create16()
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#8 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+ERROR - 2023-06-18 05:02:27 --> Table 'db_msi_sugihwaras_rev.manajemenkelas' doesn't exist
+CRITICAL - 2023-06-18 05:02:27 --> Table 'db_msi_sugihwaras_rev.manajemenkelas' doesn't exist
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Models\Penjadwalan_model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Penjadwalan.php(70): App\Models\Penjadwalan_model->getKelas()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->create16()
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#8 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+CRITICAL - 2023-06-18 05:40:08 --> Undefined variable $tahunajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\penjadwalan\create16.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 106)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('penjadwalan/cre...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Penjadwalan.php(74): view('penjadwalan/cre...', Array)
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Penjadwalan->create16()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjadwalan))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 05:53:27 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:56:14 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:56:15 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:56:15 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:58:04 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:58:05 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:58:06 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 05:58:07 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#5 {main}
+CRITICAL - 2023-06-18 06:01:19 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:01:20 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:03:47 --> Undefined variable $tahun_ajar
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:04:02 --> Undefined variable $model
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:04:19 --> Undefined variable $kelas
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 55)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:06:45 --> Undefined variable $tahun_ajar
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:06:45 --> Undefined variable $tahun_ajar
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:19:02 --> Undefined variable $tahun_ajar
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:19:20 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:19:21 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:19:22 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:21:35 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:27:21 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:27:22 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:28:08 --> Undefined variable $tahun_ajaran
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Views\pembelajaran\create11.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\UTS_En...', 54)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(210): include('C:\\xampp\\UTS_En...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Common.php(1089): CodeIgniter\View\View->render('pembelajaran/cr...', Array, true)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(79): view('pembelajaran/cr...')
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#10 {main}
+CRITICAL - 2023-06-18 06:36:24 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-18 06:36:41 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-18 06:36:58 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-18 06:37:28 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-18 06:44:40 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+CRITICAL - 2023-06-18 06:44:42 --> Call to a member function getKelas() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
+ERROR - 2023-06-18 06:44:56 --> Table 'db_msi_sugihwaras_rev.kelas' doesn't exist
+CRITICAL - 2023-06-18 06:44:56 --> Table 'db_msi_sugihwaras_rev.kelas' doesn't exist
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Models\Pembelajaran_model.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#8 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+ERROR - 2023-06-18 06:44:58 --> Table 'db_msi_sugihwaras_rev.kelas' doesn't exist
+CRITICAL - 2023-06-18 06:44:58 --> Table 'db_msi_sugihwaras_rev.kelas' doesn't exist
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Models\Pembelajaran_model.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#8 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+ERROR - 2023-06-18 06:46:26 --> Table 'db_msi_sugihwaras_rev.kelas' doesn't exist
+CRITICAL - 2023-06-18 06:46:26 --> Table 'db_msi_sugihwaras_rev.kelas' doesn't exist
+#0 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\app\Models\Pembelajaran_model.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(77): App\Models\Pembelajaran_model->getKelas()
+#6 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#7 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#8 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#11 {main}
+CRITICAL - 2023-06-18 06:46:47 --> Call to a member function getTahunajaran() on null
+#0 C:\xampp\UTS_Enterprise_msi - Copy\app\Controllers\Pembelajaran.php(78): App\Models\Pembelajaran_model->getTahunajaran()
+#1 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(825): App\Controllers\Pembelajaran->create11()
+#2 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelajaran))
+#3 C:\xampp\UTS_Enterprise_msi - Copy\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\UTS_Enterprise_msi - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\UTS_Enterprise_msi - Copy\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\UTS_En...')
+#6 {main}
